@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "olanangum-agentplat_jd011"
+name = "olanangum-operator_fusion_payoff_threshold_scan"
 version = "0.1.0"
 description = "为每一项打分并与阈值比较，明确标出通过、边界与不通过三档"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://olanangum.github.io"
-Repository = "https://github.com/olanangum/agentplat_jd011"
-Issues = "https://github.com/olanangum/agentplat_jd011/issues"
+Repository = "https://github.com/olanangum/operator_fusion_payoff_threshold_scan"
+Issues = "https://github.com/olanangum/operator_fusion_payoff_threshold_scan/issues"
 
 [project.scripts]
-agentplat_jd011 = "agentplat_jd011:main"
+operator_fusion_payoff_threshold_scan = "operator_fusion_payoff_threshold_scan:main"
 
 [tool.setuptools]
-py-modules = ["agentplat_jd011"]
+py-modules = ["operator_fusion_payoff_threshold_scan"]
